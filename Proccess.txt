@@ -1,0 +1,10 @@
+[Pipenv](https://docs.python-guide.org/dev/virtualenvs/)
+pip3 install --user pipenv
+pipenv install requests
+pip3 install --user -U nltk
+pip3 install --user -U numpy
+
+python3
+import nltk
+nltk.download("vader_lexicon")
+
